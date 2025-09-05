@@ -1,0 +1,47 @@
+<section class="prensi-effect"></section> 
+<style>
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #000;
+}
+
+.prensi-effect {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &::after {
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: brightness(1.5) saturate(100) blur(5px) contrast(5);
+    mix-blend-mode: multiply;
+    animation: achicar 5s linear alternate infinite forwards;
+  }
+}
+
+@keyframes achicar {
+  0%,
+  100% {
+    filter: brightness(100) saturate(1) blur(5px) contrast(5);
+  }
+  25%,
+  75% {
+    filter: brightness(1) saturate(100) blur(5px) contrast(5);
+  }
+}
+
+</style>
