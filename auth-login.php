@@ -2,16 +2,16 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>SpiritAdmins Login</title>
+    <title>Prometheus Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="matrix-container">
         <h1>Connect to freedom net</h1>
         <form method="POST" action="login.php">
-            <input type="text" name="user" placeholder="Usuario" required><br>
-            <input type="password" name="pass" placeholder="Contraseña" required><br>
-            <input type="submit" value="Ingresar">
+            <input type="text" name="user" placeholder="User" required><br>
+            <input type="password" name="pass" placeholder="Password" required><br>
+            <input type="submit" value="Connect">
         </form>
     </div>
 </body>
