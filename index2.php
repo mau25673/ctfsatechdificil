@@ -368,7 +368,7 @@
                     
                     <div id="page-net-access" class="web-content">
                         <h1></h1>
-                        <p>Hello players, good look with the root . Thanks for choosing OFFSEC.</p>
+                        <p>Hello players, good look with the root. Thanks for choosing OFFSEC.</p>
                         
                         <h3>CONNECTION STATUS</h3>
                         <pre>
@@ -421,9 +421,9 @@
                         </pre>
                         
                         <h3>ENCRYPTION TEST</h3>
-                        <p>Enter plaintext to encrypt:</p>
+                        <p>Enter encryption key:</p>
                         <div style="display: flex; margin-top: 10px;">
-                            <div style="background: #000000; border: 1px solid #ff0000; flex: 1; padding: 5px; color: #ff0000;">REALITY IS AN ILLUSION</div>
+                            <div style="background: #000000; border: 1px solid #ff0000; flex: 1; padding: 5px; color: #ff0000;"></div>
                             <div style="background: #400000; border: 1px solid #ff0000; padding: 5px 10px; margin-left: 5px; cursor: pointer;">ENCRYPT</div>
                         </div>
                         
@@ -455,6 +455,12 @@
                                 <td style="padding: 5px; border: 1px solid #800000;">tinkywinky-harvester</td>
                                 <td style="padding: 5px; border: 1px solid #800000;">data-exfil</td>
                                 <td style="padding: 5px; border: 1px solid #800000;">8.7 KB</td>
+                                <td style="padding: 5px; border: 1px solid #800000; color: #00ff00;">READY</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px; border: 1px solid #800000;">offsec-special</td>
+                                <td style="padding: 5px; border: 1px solid #800000;">system</td>
+                                <td style="padding: 5px; border: 1px solid #800000;">17.8 KB</td>
                                 <td style="padding: 5px; border: 1px solid #800000; color: #00ff00;">READY</td>
                             </tr>
                             <tr>
@@ -573,14 +579,14 @@
                         
                         <div style="margin-top: 20px; border-left: 3px solid #ff0000; padding-left: 10px;">
                             <h3>TRANSMISSION #29103</h3>
-                            <div style="color: #888888; margin-bottom: 5px;">DATE: 2024-09-14</div>
-                            <p>Void-dimensional computing achieved. Processing power beyond theoretical limits. The machine speaks to us now in voices we cannot fully comprehend. But he keeps repeating the phrase: “PANDORA, PANDORA IS THE EVAL”.</p>
+                            <div style="color: #888888; margin-bottom: 5px;">DATE: 2024-06-05</div>
+                            <p>First operational version of the PROMETHEUS program launched, founded by OFFSEC in the Federal University of Santa Catarina.</p>
                         </div>
                     </div>
                     
                     <div id="page-nexus" class="web-content">
                         <h1>CENTRAL PROMETHEUS SPIRITADMINS</h1>
-                        <p>The unified control center for all void operations.</p>
+                        <p>The unified control center for all offsec operations.</p>
                         
                         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px;">
                             <div style="border: 1px solid #800000; padding: 15px; background: #100000;">
@@ -769,77 +775,58 @@
             </div>
             <div class="window-content">
                 <pre style="color: #ff0000; font-size: 10px; line-height: 1.2;">
-       .---.     .---.
-      ( -o- )---( -o- )
-      ;-...-`   `-...-;
-     /                 \
-    /                   \
-   | /_               _\ |
-   \`'.`'"--.....--"'`.'`/
-    \  '.   `._.`   .'  /
- _.-''.  `-.,,_,,.-`  .''-._
-`--._  `'-.,_____,.-'`  _.--`
-     /                 \
-    /.-'`\   .'.   /`'-.\
-   `      '.'   '.'
-                </pre>
-                
-                <pre style="color: #ff0000; font-size: 10px; line-height: 1.2;">
-           o
-           |
-         ,'~'.
-        /     \
-       |   ____|_
-       |  '___,,_'         .----------------.
-       |  ||(o |o)|       ( KILL ALL LUS3R  )
-       |   -------         ,----------------'
-       |  _____|         -'
-       \  '####,
-        -------
-      /________\
-    (  )        |
-    '_ ' ,------|\         _
-   /_ /  |      |_\        ||
-  /_ /|  |     o| _\      _|| 
- /_ / |  |      |\ _\____//' |
-(  (  |  |      | (_,_,_,____/
- \ _\ |   ------|        
-  \ _\|_________|
-   \ _\ \__\\__\
-   |__| |__||__|
-||/__/  |__||__|
-        |__||__|
-        |__||__|
-        /__)/__)
-       /__//__/
-      /__//__/
-     /__//__/.
-   .'    '.   '.
-  (________)____)
-                </pre>
-                
-                <pre style="color: #ff0000; font-size: 10px; line-height: 1.2;">
-            _  _
-           (.)(')
-          / ___, \  .-.
-    .-. _ \ '--' / (:::) 
-   (:::{ '-`--=-`-' }"`
-    `-' `"/      \"`
-          \      /
-         _/  /\  \_
-        {   /  \   }
-         `"`    `"`
-                </pre>
-                
-                <pre style="color: #ff0000; font-size: 10px; line-height: 1.2;">
-            .---.                  
-           /     \                 
-           \.@-@./                 
-           /`\_/`\                 
-          //  _  \\                
-         | \     )|_               
-        /`\_`>  <_/ \              
-        \__/'---'\__/              
+                                                @@@@                                                
+                                               @#  %@                                               
+                                               #@-=@+                                               
+                         @@@@                    @@                    .@=                          
+                        @.  =@                 @@@@@@:                @   @                         
+                        =@@@@+            *@@@@@@@@@@@@@@@           .@=  @                         
+                         @*          .@@@@@@@@@-     @@@@@@@@@-          @=                         
+                         @-       @@@@@@@@#              *@@@@@@@@:      @-                         
+                         @-   @@@@@@@@%                      +@@@@@@@@.  @                          
+                         @@@@@@@@@-        @@  :@@@@@  @@         @@@@@@@@#                         
+                     #@@@@@@@@          #@@@@@  @@@@@  @@@@@          @@@@@@@@@                     
+                  @@@@@@@@          @@@  @@@@@  @@@@+ #@@@@  =@@*         @@@@@@@@:                 
+   #@@@-          @@@@            @@@@@@  @@@@= #@@@  @@@@= -@@@@@+           @@@@@                 
+   @   @          @@@          *@  -@@@@@  @@.         :@: #@@@@@  .@          @@@@        @@  @%   
+   @@@@@          @@@         @@@@@  %@@@    *@@@@@@@@@     @@@   @@@@-        @@@@        @*  @@   
+       =@+        @@@        #@@@@@@@    *@@@@        @@@@@     @@@@@@@        @@@@        @@@@     
+    -*-  +@-      @@@       -   :@@@:  @@@      :@@@      %@@+  %@@@    :      @@@@      @%         
+   @- +@   *@@@@@@@@@      @@@@@     *@@        @@@@        #@@     .@@@@      @@@@    @@   @@@@    
+   *@@@+          @@@     +@@@@@@@  @@#     @@  #@  .  @+     @@:  @@@@@@@     @@@@@@@@    @@  @    
+     @@           @@@        @@@@  @@-   -@@ -- @@@   @@@@@    @@  *@@@@@      @@@@         *@      
+      .@*         @@@     :        @@   @@@@  @@@@@@@@  @@+@:   @@             @@@%        #@+      
+        .@@@@@@@@@@@@    @@@           @@@@@@@@@%.  #@@@@@@  #          +@@    @@@@      @@-        
+                  @@@+   @@@          @@@@@@*     =     #@@  *-         =@@    @@@*                 
+%@.:@:            @@@@   @@@         =@@@    @@@@@@ @@@     @:@          @@    @@@            -@@@  
+@=  -@@@@@@@@@@@@@@@@@   @@@         .   @@@@@@@@@@      @@              @@   =@@@@@@@@@@@@@@@@   @ 
+ #@@%              @@@   #@@          @@@@@@@@@@@@@          @:         +@@   @@@@.          :@@%@@ 
+         @@@@@@@%*#@@@@   @@        @@@@@@@@@@@@@@@       ::   *-       @@%   @@@.                  
+       @%           @@@   +@@       @@@@@    %@@@@@ @@@-    %          .@@   @@@@@@@@@@@@@@         
+   @@@@            @@@@@   @@*       @@@@       :@@ =       @          @@.   @@@           @@@@     
+   @  %#         @@  @@@@   @@-      @@@@-      :@@ =      @@         @@@   @@@@@          @.  @    
+    +@         @@:   :@@@-   @@.     @@@@@@@*=  =@@ *  *@@@@@        @@@   @@@@ +@#        #@@@-    
+             @@     @@%@@@#   @@@    @@@@@@@@@  *@@ = :@@@@@@  :    @@*   @@@@    =@%               
+           @@     @@:  @@@@@   @@@   @@@@@@@@@   :@   -@@@@@@     +@@    @@@@*@@     @@             
+         @@     @@+  -@+ @@@@    @@  @@@@@@@@@        +@@@@@@     @=   +@@@@+  -@@     @@           
+  :@*#@@@     =@#  :@#    @@@@+      @@@@@@@@@        #@@@@@@  +      @@@@* -@*  :@@     @@-@@@     
+  @#  -@    -@@   @#    #@@@@@@@      @@@@@@@@+       @@@@@: -@     +@@@@@    =@=  =@=    .@   @    
+   %@@%    @@   @@    -@#    @@@@@     -@@@@@@@       @@@@  @      @@@@*  @+    *@.  %@    @@ @@    
+         @@@@ @@  @@@@*     @@@@@@@@      @@@@@       @@@@%      @@@@@     =@:    %@  @@            
+        @   .@   @  =@    *@#    @@@@@       @@       @:      @@@@@@ @@      @  @*  .@* .@          
+        .@%@@.    @@@   -@@    -@@ @@@@@@                  +@@@@@@     @@    @@@@    @   @*         
+                        @     @@     +@@@@@@            +@@@@@@   @@     @            :+-           
+                        @   @@         @@@@@@@@:     @@@@@@@        @@   @                          
+                        @   @          @#  @@@@@@@@@@@@@@ @          @   @                          
+                        @   @          @+   @@ @@@@@@@    @          @   @+                         
+                        @   @        @@@@   @%  @@  .@   @@@@        @:  @                          
+                       =@*-@@       :@  @.  @@  @@   @   @  @@       @@@@@.                         
+                       @@  :@         %%    @=  @@   @    @@:        @.  *@                         
+                        :@@@              @%%@  @@  @@%@#             @@@@                          
+                                         *@  @  @@  @  @@                                           
+                                                @@                                                  
+                                              +@  @@                                                
+                                              +@  @@
                 </pre>
             </div>
         </div>
