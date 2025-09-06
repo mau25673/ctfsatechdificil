@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "<pre style='color:#00ff00;'>";
 
     if ($result && $result->num_rows > 0) {
-        echo "Access granted. Welcome, $username.";
+        echo "Access granted. Welcome, $username.\nBut, what you're looking for is probably in port 22.";
     } else {
         echo "Access denied.";
     }
