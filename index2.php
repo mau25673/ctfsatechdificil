@@ -282,7 +282,7 @@
                 </div>
             </div>
             <div class="window-content">
-                <div>C:\> initializing HackMyVM daemon...</div>
+                <div>C:\> initializing Prometheus daemon...</div>
                 <div>C:\> accessing global database...</div>
                 <div>C:\> calibrating conection...</div>
                 <div>C:\> establishing secure channel...</div>
@@ -292,7 +292,7 @@
         
         <div id="desktop-window" class="window">
             <div class="title-bar" data-window="desktop-window">
-                <div class="window-title">HackMyVM Interface Web v0.0.7</div>
+                <div class="window-title">Prometheus Interface Web v0.0.7</div>
                 <div class="window-buttons">
                     <span class="window-btn" data-action="minimize">_</span>
                     <span class="window-btn" data-action="maximize">[]</span>
@@ -331,7 +331,7 @@
                     </div>
                     <div class="desktop-icon" data-page="nexus">
                         <div class="icon-graphic">+O</div>
-                        <div class="icon-label">NEXUS</div>
+                        <div class="icon-label">PROMETHEUS</div>
                     </div>
                 </div>
             </div>
@@ -339,7 +339,7 @@
         
         <div id="browser-window" class="window">
             <div class="title-bar" data-window="browser-window">
-                <div class="window-title">HACKMYVM_BROWSER v0.4.18</div>
+                <div class="window-title">PROMETHEUS_BROWSER v0.4.18</div>
                 <div class="window-buttons">
                     <span class="window-btn" data-action="minimize">_</span>
                     <span class="window-btn" data-action="maximize">[]</span>
@@ -357,7 +357,7 @@
                     <!-- Web content containers -->
                     <div id="page-loading" class="web-content" style="display:block;">
                         <div style="text-align:center; margin-top:50px;">
-                            <h2>CONNECTING TO THE HACKMYVM NETWORK...</h2>
+                            <h2>CONNECTING TO THE OFFSEC NETWORK...</h2>
                             <pre>
     |||||||||||||||||||||
     ||| INITIATING... |||
@@ -368,7 +368,7 @@
                     
                     <div id="page-net-access" class="web-content">
                         <h1></h1>
-                        <p>Hello players, good look with the root . Thanks for choose ShellDredd SA</p>
+                        <p>Hello players, good look with the root . Thanks for choosing OFFSEC.</p>
                         
                         <h3>CONNECTION STATUS</h3>
                         <pre>
@@ -382,7 +382,7 @@
                         <ul>
                             <li><a href="#" data-internal-link="daemons">Daemon Control Services</a></li>
                             <li><a href="#" data-internal-link="crypto">Cryptographic Algorithms</a></li>
-                            <li><a href="#" data-internal-link="nexus">Central Nexus</a></li>
+                            <li><a href="#" data-internal-link="nexus">Prometheus Central</a></li>
                         </ul>
                     </div>
                     
@@ -579,7 +579,7 @@
                     </div>
                     
                     <div id="page-nexus" class="web-content">
-                        <h1>CENTRAL NEXUS SPIRITADMINS</h1>
+                        <h1>CENTRAL PROMETHEUS SPIRITADMINS</h1>
                         <p>The unified control center for all void operations.</p>
                         
                         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px;">
@@ -594,9 +594,9 @@
                                     <li>Memory: 3.2TB / 8TB</li>
                                     <li>Void Integrity: STABLE</li>
 				
-<li>NEXUS> initialize global protocol --login</li>
+<li>PROMETHEUS> initialize global protocol --login</li>
 <li>AUTHORIZATION REQUIRED</li>
-<li>NEXUS MSG> _ AUTHORIZATION PANEL :: http://[personal ip]/auth-login.php</li>
+<li>PROMETHEUS MSG> _ AUTHORIZATION PANEL :: http://[personal ip]/auth-login.php</li>
 
                                 </ul>
                             </div>
@@ -619,9 +619,9 @@
                         <div style="margin-top: 15px; border: 1px solid #800000; padding: 15px; background: #100000;">
                             <h3>COMMAND INTERFACE</h3>
                             <div style="background: #000000; border: 1px solid #ff0000; padding: 10px; font-family: monospace; margin-top: 10px;">
-                                <div>NEXUS> initialize global protocol --login</div>
+                                <div>PROMETHEUS> initialize global protocol --login</div>
                                 <div style="color: #ff0000;">AUTHORIZATION REQUIRED</div>
-                                <div class="blink">NEXUS MSG> _ AUTHORIZATION PANEL :: http://[personal ip]/auth-login.php</div>
+                                <div class="blink">PROMETHEUS MSG> _ AUTHORIZATION PANEL :: http://[personal ip]/auth-login.php</div>
                             </div>
                         </div>
                     </div>
@@ -742,7 +742,7 @@
                     </tr>
                     <tr>
                         <td style="padding: 5px; border: 1px solid #800000;">
-                            <a href="#" data-internal-link="nexus" style="color: #ff0000; text-decoration: none;">CENTRAL NEXUS</a>
+                            <a href="#" data-internal-link="prometheus" style="color: #ff0000; text-decoration: none;">PROMETHEUS CENTRAL</a>
                         </td>
                     </tr>
                 </table>
