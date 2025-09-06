@@ -1,3 +1,37 @@
+
+
+
+
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+$mysqli = new mysqli("localhost", "root", "test", "sion");
+
+if ($mysqli->connect_error) {
+    die("Connection error: " . $mysqli->connect_error);
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['user'] ?? '';
+    $password = $_POST['pass'] ?? '';
+
+    $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+    $result = $mysqli->query($query);
+
+    echo "<pre style='color:#00ff00;'>";
+
+    if ($result && $result->num_rows > 0) {
+        echo "Access granted. Welcome, $username.";
+    } else {
+        echo "Access denied.";
+    }
+
+    echo "</pre>";
+}
+?>
+
+
 <style>
 
 
@@ -6,11 +40,7 @@ body {
     color: #00ff00;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 100px;
 }
 
 .matrix-container {
@@ -22,11 +52,3 @@ body {
 }
 
 </style>
-</head>
-<body>
-  <div class="matrix-container">
-    <h1>Congratulations, you've reached freedom net.</h1>
-    <p>But, what you're looking for is probably in port 22...</p>
-  </div>
-</body>
-</html>
