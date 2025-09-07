@@ -423,14 +423,14 @@
                         <h3>ENCRYPTION TEST</h3>
                         <p>Enter encryption key:</p>
                         <div style="display: flex; margin-top: 10px;">
-                            <div style="background: #000000; border: 1px solid #ff0000; flex: 1; padding: 5px; color: #ff0000;"></div>
+                            <div style="background: #000000; border: 1px solid #ff0000; flex: 1; padding: 5px; color: #ff0000;">Cryp70N_Dyst0pi@_N3tRunn3r#HEX</div>
                             <div style="background: #400000; border: 1px solid #ff0000; padding: 5px 10px; margin-left: 5px; cursor: pointer;">ENCRYPT</div>
                         </div>
                         
                         <h3>OUTPUT</h3>
                         <div style="font-family: monospace; background: #080808; padding: 10px; border: 1px dashed #ff0000; overflow-wrap: break-word; margin-top: 10px;">
-                        48 6f 6c 61 20 41 6c 69 74 61 2c 20 65 73 70 65 72 6f 20 71 75 65 20 65 73 74 65 73 20 6c 65 79 65 6e 64 6f 20 65 73 74 65 20 6d 65 6e 73 61 6a 65 20 63 6f 64 69 66 69 63 61 64 6f 2c 20 70 61 72 61 20 70 6f 64 65 72 20 68 61 63 6b 65 61 72 20 65 6c 20 73 69 73 74 65 6d 61 20 74 69 65 6e 65 73 20 71 75 65 20 61 70 6c 69 63 61 72 20 6c 61 20 74 e9 63 6e 69 63 61 20 71 75 65 20 74 65 20 65 78 70 6c 69 71 75 e9 2c 20 74 65 20 68 65 20 64 65 6a 61 64 6f 20 65 6c 20 61 63 63 65 73 6f 20 63 6f 6e 20 6c 61 20 63 6c 61 76 65 20 65 76 61 6c 20 22 70 61 6e 64 6f 72 61 22 2e 20 4e 6f 73 20 76 65 6d 6f 73 20 65 6e 20 6c 61 20 72 65 64 2e
-                        </div>
+                        4c 41 4d 42 20 43 4f 4e 54 41 43 54 49 4e 47 20 42 41 53 45 0a 4c 41 4d 42 20 43 4f 4e 54 41 43 54 49 4e 47 20 42 41 53 45 0a 49 4e 20 54 48 49 53 20 4d 45 53 53 41 47 45 20 4c 49 45 53 20 54 48 45 20 43 4f 44 45 20 54 4f 20 54 55 52 4e 20 4f 46 46 20 54 48 45 20 41 55 54 48 4f 52 49 54 59 27 53 20 46 55 53 49 4f 4e 20 44 52 49 56 45 3a 0a 0a 35 6b 6a 37 26 61 73 64 37 23 33 c3 a7 6c 50 33 34 35 25 64 61 32 21 34 35 33 24 24 23 40 35 64 6b 61 38 64 23 24 26 64 2c 35 6f c3 a7 2e 24 c2 b4 23 33 36 37 6d 41 33 33 33 50 33 69 75 34 6e 64 2c 3b 2f 32 21 33 36 70 25 33 61 64 33 40 0a 0a 59 4f 55 20 57 49 4c 4c 20 48 41 56 45 20 41 54 20 4c 45 41 53 54 20 4f 4e 45 20 48 4f 55 52 20 42 45 46 4f 52 45 20 54 48 45 59 20 54 55 52 4e 20 49 54 20 42 41 43 4b 20 4f 4e 2e 20 47 4f 4f 44 20 4c 55 43 4b 2e 0a 0a 53 43 49 45 4e 54 49 41 20 4c 49 42 45 52 41 54
+                    </div>
                     </div>
                     
                     <div id="page-payloads" class="web-content">
